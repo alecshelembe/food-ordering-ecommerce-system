@@ -2,9 +2,9 @@
 
 // sever
 $dbsevername = "localhost";
-$dbusername = "kingwebs_pro";
-$dbpassword = "KApp!](Qu5j7";
-$dbname = "kingwebs_wp291";
+$dbusername = "";
+$dbpassword = "";
+$dbname = "";
 
 $conn = mysqli_connect($dbsevername, $dbusername, $dbpassword);
 
@@ -504,10 +504,10 @@ function send_to_store_email($sender_email,$reciever_email,$reciever_name,$subje
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.kingwebsites.co.za';                     //Set the SMTP server to send through
+    $mail->Host       = '';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = "$sender_email";                     //SMTP username
-    $mail->Password   = '1!Delivery1!';                               //SMTP password
+    $mail->Password   = '';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
