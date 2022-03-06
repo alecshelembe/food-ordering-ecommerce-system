@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap-input-spinner</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="src/bootstrap-input-spinner.js"></script>
+    
+</head>
+<body>
+
+        <input type="number"/>
+    
+<!-- bootstrap needs jQuery -->
+<script>
+    $("input[type='number']").inputSpinner()
+    $(".buttons-only").inputSpinner({buttonsOnly: true, autoInterval: undefined })
+</script>
+</body>
+</html>
