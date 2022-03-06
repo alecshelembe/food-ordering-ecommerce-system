@@ -113,8 +113,7 @@ function generateSignature($data, $passPhrase = null) {
 $cartTotal = "$amount"; // This amount needs to be sourced from your application
 $data = array(
     // Merchant details
-  // 'merchant_id' => '17393408',
-  // 'merchant_key' => 'nn2tkc8asjvsi',
+ 
   'merchant_id' => '10000100',
   'merchant_key' => '46f0cd694581a',
   'return_url' => 'https://kingwebsites.co.za/payfast/return.php',
